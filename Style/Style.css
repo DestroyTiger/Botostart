@@ -232,9 +232,11 @@ li>a:hover {
     background-color: white !important;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.596);
 }
-footer{
+
+footer {
     background-color: #b6b3b3 !important;
 }
+
 .footer-contant div>h3 {
     position: relative;
 }
@@ -254,27 +256,32 @@ footer{
     text-align: justify;
     font-size: 1rem;
 }
-.page-link-list li{
+
+.page-link-list li {
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 .page-link-list li::before {
     content: '';
     display: inline-flex;
-    margin-left:2px;
+    margin-left: 2px;
     height: 1px;
     background-color: white;
     width: 0;
     transition: width 150ms linear;
 }
-.page-link-list li:hover:before{
+
+.page-link-list li:hover:before {
     width: 15px;
 }
-.copyright-info{
+
+.copyright-info {
     background-color: #404142;
 }
+
 @media (min-width:991px) and (max-width:1019px) {
     li>a {
         font-size: .85em !important;
@@ -351,5 +358,18 @@ footer{
     .image-hover .reporter-title :is(p, span) {
         font-size: 1.2rem;
 
+    }
+}
+
+@media (max-width:545px) and (min-width:375px) {
+    p.h3{
+        font-size: 1.4rem;
+    }
+    .reporter-sub-box h3 {
+        font-size: .9rem;
+    }
+
+    .image-hover .reporter-title :is(p, span) {
+        font-size: 1rem;
     }
 }
