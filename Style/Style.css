@@ -64,7 +64,8 @@ li>a:hover {
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    font-size: 10px;
+    font-size: .7rem;
+   
 }
 
 .login-btn {
